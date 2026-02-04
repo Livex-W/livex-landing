@@ -97,14 +97,14 @@
             <p class="section-intro">Trabajamos con los mejores socios de la industria turística para ofrecerte experiencias de calidad.</p>
             <div class="partners-grid">
                 <div class="partner-logo">
-                    <img src="images/natural-tours-logo.png" alt="Natural Tours">
+                    <img src="images/natural_tours.jpg" alt="Natural Tours">
                 </div>
                 <!-- Espacio para más aliados -->
                 <div class="partner-placeholder">
-                    <span>Tu logo aquí</span>
+                    <span>Logo aquí para otros</span>
                 </div>
                 <div class="partner-placeholder">
-                    <span>Tu logo aquí</span>
+                    <span>Logo aquí para otros</span>
                 </div>
             </div>
         </div>
@@ -112,45 +112,56 @@
 
     <!-- Descargar la App -->
     <section id="app" class="download-app">
-        <div class="container">
-            <div class="app-content">
-                <div class="app-info">
-                    <h2 class="section-title-white">Descarga la App de Livex</h2>
-                    <p class="app-description">Lleva todas las experiencias en tu bolsillo. Descubre, reserva y disfruta desde cualquier lugar.</p>
-                    <ul class="app-features">
-                        <li>✓ Explora cientos de experiencias turísticas</li>
-                        <li>✓ Reserva en tiempo real</li>
-                        <li>✓ Pagos seguros y rápidos</li>
-                        <li>✓ Notificaciones de ofertas exclusivas</li>
-                        <li>✓ Historial de reservas</li>
-                    </ul>
-                    <div class="app-buttons">
-                        <a href="#" class="store-button">
-                            <span class="store-icon">🍎</span>
-                            <div>
-                                <div class="store-small">Disponible en</div>
-                                <div class="store-large">App Store</div>
-                            </div>
-                        </a>
-                        <a href="#" class="store-button">
-                            <span class="store-icon">🤖</span>
-                            <div>
-                                <div class="store-small">Disponible en</div>
-                                <div class="store-large">Google Play</div>
-                            </div>
-                        </a>
-                    </div>
+    <div class="container">
+        <div class="app-content">
+            <div class="app-info">
+                <h2 class="section-title-white">Descarga la App de Livex</h2>
+                <p class="app-description">Lleva todas las experiencias en tu bolsillo. Descubre, reserva y disfruta desde cualquier lugar.</p>
+                <ul class="app-features">
+                    <li>✓ Explora cientos de experiencias turísticas</li>
+                    <li>✓ Reserva en tiempo real</li>
+                    <li>✓ Pagos seguros y rápidos</li>
+                    <li>✓ Notificaciones de ofertas exclusivas</li>
+                    <li>✓ Historial de reservas</li>
+                </ul>
+                <div class="app-buttons">
+                    <a href="#" class="store-button">
+                        <span class="store-icon">🤖</span>
+                        <div>
+                            <div class="store-small">Disponible en</div>
+                            <div class="store-large">Google Play</div>
+                        </div>
+                    </a>
                 </div>
-                <div class="app-mockup">
-                    <div class="phone-frame">
-                        <div class="phone-screen">
-                            <div class="mock-content">Livex App</div>
+            </div>
+            
+            <div class="app-mockup">
+                <div class="phone-frame">
+                    <div class="carousel-container">
+                        <div class="carousel-track">
+                            <img src="/images/livex_login.jpg" alt="Pantalla de inicio de sesión" class="carousel-slide active">
+                            <img src="/images/livex_home.jpg" alt="Explorar experiencias" class="carousel-slide">
+                            <img src="/images/livex_experience.jpg" alt="Detalle de experiencia" class="carousel-slide">
+                            <img src="/images/livex_VIP.jpg" alt="Beneficios VIP" class="carousel-slide">
+                        </div>
+                        
+                        <!-- Navigation arrows -->
+                        <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+                        <button class="carousel-btn next" aria-label="Siguiente">›</button>
+                        
+                        <!-- Dots indicators -->
+                        <div class="carousel-dots">
+                            <span class="dot active" data-slide="0"></span>
+                            <span class="dot" data-slide="1"></span>
+                            <span class="dot" data-slide="2"></span>
+                            <span class="dot" data-slide="3"></span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Registra tu Resort -->
     <section id="resorts" class="register-resort">
@@ -230,5 +241,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/carrusel.js"></script>
 </body>
 </html>
