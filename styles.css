@@ -623,7 +623,7 @@ body {
 }
 
 .footer-brand .footer-logo {
-    height: 150px;
+    height: 200px;
     width: auto;
 }
 
@@ -667,22 +667,60 @@ body {
     gap: var(--spacing-sm);
 }
 
-.social-icon {
+.social-icon img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: var(--gray-700);
-    border-radius: 50%;
     text-decoration: none;
     font-size: 1.25rem;
     transition: all 0.3s ease;
 }
 
 .social-icon:hover {
-    background-color: var(--primary-purple);
     transform: translateY(-3px);
+}
+
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact-info {
+    margin-top: var(--spacing-xs);
+}
+
+.contact-info p {
+    margin-bottom: 3px;
+    color: var(--text-light);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-item a {
+    font-size: small;
+}
+
+.contact-label {
+    font-size: small;
+    font-weight: 500;
+    min-width: 80px;
+    color: var(--text-light);
+}
+
+.contact-info a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: var(--primary-color);
 }
 
 .footer-bottom {
@@ -784,5 +822,10 @@ body {
         width: 35px;
         height: 35px;
         font-size: 20px;
+    }
+
+    .footer-brand .footer-logo {
+        margin-left: 60px;
+        height: 150px;
     }
 }
