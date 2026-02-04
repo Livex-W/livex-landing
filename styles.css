@@ -623,9 +623,8 @@ body {
 }
 
 .footer-brand .footer-logo {
-    height: 60px;
+    height: 150px;
     width: auto;
-    margin-bottom: var(--spacing-sm);
 }
 
 .footer-tagline {
@@ -771,5 +770,19 @@ body {
     .steps-grid,
     .benefits-grid {
         grid-template-columns: 1fr;
+    }
+
+    .app-content {
+        flex-direction: column;
+    }
+
+    .app-mockup {
+        margin-top: 40px;
+    }
+
+    .carousel-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
     }
 }
